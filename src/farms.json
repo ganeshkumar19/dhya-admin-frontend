@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "name": "Farm Alpha",
+    "location": "Andhra Pradesh",
+    "user": {
+      "id": 1,
+      "name": "John Doe"
+    },
+    "farmSize": "10 acres",
+    "farmType": "Freshwater",
+    "waterSource": "Borewell",
+    "ponds": [
+      {
+        "id": 1,
+        "name": "Pond A",
+        "pondSize": "Small",
+        "stockingDensity": 10000,
+        "species": "Tilapia",
+        "monitoring": "manual",
+        "deviceIds": []
+      },
+      {
+        "id": 2,
+        "name": "Pond B",
+        "pondSize": "5 acres",
+        "stockingDensity": 8000,
+        "species": "Catfish",
+        "monitoring": "sensor",
+        "deviceIds": ["dev-001", "dev-002"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Farm Beta",
+    "location": "Tamil Nadu",
+    "user": {
+      "id": 2,
+      "name": "Jane Smith"
+    },
+    "farmSize": "6 acres",
+    "farmType": "Brackishwater",
+    "waterSource": "Canal",
+    "ponds": [
+      {
+        "id": 3,
+        "name": "Pond C",
+        "pondSize": "6 acres",
+        "stockingDensity": 12000,
+        "species": "Shrimp",
+        "monitoring": "manual",
+        "deviceIds": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Farm Gamma",
+    "location": "Kerala",
+    "user": {
+      "id": 3,
+      "name": "Aarav Nair"
+    },
+    "farmSize": "10 acres",
+    "farmType": "Freshwater",
+    "waterSource": "Canal",
+    "ponds": [
+      {
+        "id": 4,
+        "name": "Pond D",
+        "pondSize": "4 acres",
+        "stockingDensity": 7000,
+        "species": "Rohu",
+        "monitoring": "sensor",
+        "deviceIds": ["dev-003"]
+      },
+      {
+        "id": 5,
+        "name": "Pond E",
+        "pondSize": "4 acres",
+        "stockingDensity": 6500,
+        "species": "Mrigal",
+        "monitoring": "manual",
+        "deviceIds": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Farm Delta",
+    "location": "Maharashtra",
+    "user": {
+      "id": 4,
+      "name": "Priya Kulkarni"
+    },
+    "farmSize": "10 acres",
+    "farmType": "Brackishwater",
+    "waterSource": "Canal",
+    "ponds": [
+      {
+        "id": 6,
+        "name": "Pond F",
+        "pondSize": "6 acres",
+        "stockingDensity": 11000,
+        "species": "Prawn",
+        "monitoring": "sensor",
+        "deviceIds": ["dev-004"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Farm Epsilon",
+    "location": "Odisha",
+    "user": {
+      "id": 5,
+      "name": "Rahul Verma"
+    },
+    "farmSize": "10 acres",
+    "farmType": "Freshwater",
+    "waterSource": "Borewell",
+    "ponds": [
+      {
+        "id": 7,
+        "name": "Pond G",
+        "pondSize": "7 acres",
+        "stockingDensity": 9500,
+        "species": "Tilapia",
+        "monitoring": "manual",
+        "deviceIds": []
+      },
+      {
+        "id": 8,
+        "name": "Pond H",
+        "pondSize": "8 acres",
+        "stockingDensity": 10000,
+        "species": "Catla",
+        "monitoring": "sensor",
+        "deviceIds": ["dev-005"]
+      }
+    ]
+  }
+]
